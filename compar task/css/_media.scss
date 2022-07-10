@@ -1,0 +1,285 @@
+@media only screen and (max-width: 767px) {
+    body {
+        p {
+            font-size: 13px !important;
+        }
+    }
+    .Sidebar-About-Us-b {
+        padding-top: 140px;
+        padding-bottom: 70px;
+        .about-b {
+            h1 {
+                font-size: 27px;
+            }
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .Blog-area-b {
+        padding: 60px 0;
+        .blog-post-b {
+            .blog-content-b {
+                .blog-content-meta-b {
+                    margin-bottom: 10px;
+                }
+            }
+            h3 {
+                font-size: 16px;
+            }
+        }
+        .The-right-sidebar-b {
+            margin-top: 30px;
+            .right-sidebar-search-b {
+                padding: 0;
+                border: none;
+            }
+            .cards-b {
+                padding: 20px;
+                h3 {
+                    font-size: 16px !important;
+                }
+            }
+            .right-sidebar-categories-b {
+                ul {
+                    li {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+            .right-sidebar-tags-b {
+                a {
+                    padding: 7px 15px;
+                }
+            }
+        }
+        .navigation-links-b {
+            padding-top: 20px;
+        }
+    }
+    .About-Us-b {
+        padding-top: 140px;
+        padding-bottom: 70px;
+        .about {
+            h1 {
+                font-size: 27px;
+            }
+            ul {
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .about-us-info-Card-b {
+        padding: 60px 0;
+        .about-us-info-card-b {
+            padding-right: 0;
+            .about-us-title-b {
+                h1 {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+            .about-us-info-b {
+                span {
+                    margin-bottom: 11px;
+                    font-size: 14px;
+                }
+            }
+            .about-us-buttons-b {
+                margin-top: 25px;
+                text-align: center;
+                .about-us-default-btn-b {
+                    padding: 11px 30px;
+                    font-size: 12.5px;
+                }
+            }
+        }
+        .about-us-img-b {
+            margin-top: 30px;
+        }
+    }
+    .app-progress-info-card-b {
+        padding: 0 0 60px 0;
+        .app-progress-img-b {
+            padding-right: 0;
+            margin-bottom: 35px;
+        }
+        .app-progress-info-card-b {
+            padding-left: 0;
+            .app-progress-title-b {
+                span {
+                    font-size: 12px;
+                }
+                h1 {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+            }
+            .app-progress-buttons-b {
+                a {
+                    margin-top: 5px;
+                    padding: 11px 30px;
+                    font-size: 12.5px;
+                }
+            }
+        }
+    }
+    .App-download-b {
+        padding: 60px 15px;
+        &::before {
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+        .app-download-info-b {
+            padding-right: 0;
+            top: 0;
+            span {
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            .app-download-btns-b {
+                margin-top: 5px;
+                .app-download-playstore {
+                    text-align: start;
+                    font-size: 10px;
+                    margin-right: 5px;
+                    margin-top: 10px;
+                    padding: 11px 10px 11px 42px;
+                    img {
+                        left: 10px;
+                        width: 25px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+                .app-download-applestore {
+                    text-align: start;
+                    font-size: 10px;
+                    margin-left: 5px;
+                    margin-top: 10px;
+                    padding: 11px 10px 11px 42px;
+                    img {
+                        left: 10px;
+                        width: 25px;
+                    }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .app-download-img-b {
+            padding-left: 0;
+            margin-top: 35px;
+            transform: unset !important;
+        }
+    }
+    .app-info-b {
+        padding: 60px 0;
+        .app-info-box-b {
+            padding: 20px 15px;
+            .info-box-icon {
+                font-size: 40px;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+    .Feedback-b {
+        padding: 60px 0;
+        .feedback-b {
+            max-width: 100%;
+            .feedback-info-b {
+                p {
+                    font-size: 14px;
+                }
+                h6 {
+                    margin-top: 5px;
+                    font-size: 14px;
+                }
+            }
+            .feedback-photos-b {
+                margin-top: 10px;
+            }
+        }
+    }
+    .Experts-b {
+        padding: 60px 0 35px 0;
+        .expert-info-b {
+            margin-bottom: 40px;
+            max-width: 100%;
+            p {
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+        .expert-box-content-b {
+            padding: 40px 15px 60px;
+            .expert-box-info-b {
+                h3 {
+                    font-size: 16px;
+                }
+            }
+            .expert-box-links-b {
+                ul {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: 0;
+                    li {
+                        a:hover {
+                            background-color: #fff;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .software-info-Card-b {
+        padding: 60px 0;
+        .software-info-card-b {
+            padding-right: 0;
+            .software-title-b {
+                span {
+                    font-size: 14px;
+                }
+                h1 {
+                    font-size: 27px;
+                    margin-bottom: 12px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+            .software-buttons-b {
+                a {
+                    margin-top: 5px;
+                }
+            }
+        }
+        .software-img-b {
+            text-align: center;
+            margin-left: 0;
+            margin-top: 25px;
+        }
+    }
+}
