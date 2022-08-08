@@ -1,0 +1,137 @@
+"""   Task 1   """
+
+
+# userInt= int(float(input("eded elave edin: ")))
+
+
+# userInt = input("eded elave edin: ")
+
+# if not userInt.isnumeric():
+#     print("false")
+# else:
+#     j = []
+#     i = int(userInt)
+  
+#     if i % 3 == 0:
+#         j += "3"
+#     else:
+#         print("3-e qaliqli bolunur")
+#     if i % 7 == 0:
+#         j += "7"
+#     else:
+#         print("7-e qaliqli bolunur")
+#     if i % 8 == 0:
+#         j += "8"
+#     else:
+#         print("8-e qaliqli bolunur")
+        
+# print(j)
+
+        
+
+# print(type(userInt))
+
+
+"""  End of Task 1   """
+
+# print(dir("f"))
+
+"""  Task 2  """
+
+# userInt = input("Şəxsiyyət vəsiqəsi bura yaz tez: ")
+
+# if not userInt.isalnum():
+#     print("pls try again")
+# elif not len(userInt) == 10:
+#     print("the lenght must be 10")
+# else:
+#     if not (userInt[0:3].isascii() and userInt[0:3].isupper()):
+#         print("true")
+#     elif not userInt[3:].isnumeric():
+#         print("wrong")
+#     else:
+#         print(userInt)
+
+
+
+
+"""  End of Task 2  """
+
+"""   Task 3   """
+
+# userInt = input("neqeder pul goturmek istirsiz: ")
+
+# i = int(userInt)
+
+# if 2000>i:
+#     print("2000 AZN altına kredit verilmir")
+#     print(i)
+# elif 2000<i<=10000:
+#     print("2000 - 10000 AZN arası 5 faiz")
+#     result=int(float((i * 5) /100))
+#     print(i+result)
+# elif 10000<i<=50000:
+#     print("10000 - 50000 AZN arası 4 faiz")
+#     result=int(float((i * 4) /100))
+#     print(i+result)
+# elif 50000<i<=200000:
+#     print("50000 - 200000 AZN arası 3 faiz")
+#     result=int(float((i * 3) /100))
+#     print(i+result)
+# elif 200000<i<=500000:
+#     print("200000 - 500000 AZN arası 2 faiz")
+#     result=int(float((i * 5) /100))
+#     print(i+result)
+# elif 500000<i:
+#     print("500000 AZN yuxarısında kredit verilmir")
+    
+
+
+
+"""  End of Task 3   """
+
+"""   Task 4   """
+
+from curses.ascii import isupper
+
+
+userInt = input("Şifrəni bura yaz: ")
+
+Upper = 0
+Lower = 0
+for i in userInt:
+    if i.isupper():
+        Upper += 1
+    elif i.islower():
+        Lower += 1
+
+
+Numb = 0
+Alp = 0
+for i in userInt:
+    if i.isnumeric():
+        Numb += 1
+    elif i.isalpha():
+        Alp += 1
+
+if not 8<=len(userInt)<=40:
+    print("Ən az 8 ən çox 40 characterdən ibarət olmalıdır")
+elif not (userInt.isascii() and userInt.isalnum()):
+    print("Ancaq ingilis sriflərindən ibarət olmalı və Ancaq hərf və rəqəmlərdən ibarət olmalıdır")
+elif not (Upper>=1 and Lower>=1):
+    print("Mütləq şəkildə ən az bir böyük və bir kiçik hərf olmalıdır")
+elif not (Numb>=1 and Alp>=1):
+    print("Mütləq şəkildə ən az 1 hərf və ən az 1 rəqəm olmalıdır")
+else:
+    print("good to go")
+
+
+# elif not (userInt.isnumeric() and userInt.isalpha()):
+#     print("Mütləq şəkildə ən az 1 hərf və ən az 1 rəqəm olmalıdır")
+
+
+
+
+   
+
+"""   End of Task 4    """
